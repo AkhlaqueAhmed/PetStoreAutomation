@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel = "false">
+
+  <test name = "Test" preserve-order="false">
+  
+
+    <classes>
+      <class name="WebAutomationTask.Buttons"/>
+      <class name="WebAutomationTask.IframeTask"/>
+      <class name="WebAutomationTask.TextBox"/>
+      <class name="WebAutomationTask.WindowAlert"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
